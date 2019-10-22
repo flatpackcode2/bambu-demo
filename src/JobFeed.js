@@ -45,7 +45,6 @@ class JobFeed extends React.Component {
     render() {
         const { isLoading, jobList } = this.state
         let listing = jobList ? jobList.data.listings.listing : null;
-        console.log(listing)
         return (
             <>
                 <Container>
